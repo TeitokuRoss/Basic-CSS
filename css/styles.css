@@ -1,0 +1,29 @@
+p
+{
+    color:blueviolet;
+    /* color: rgb(22, 4, 217) */
+    /* color:#ffffff */
+    font-size:50px;
+    /* 1/96 дюйма */
+    text-align: left;
+    text-indent: 1em;
+    border: 50px solid #98e011;
+
+}
+h1
+{
+    color:aqua;
+}
+a
+{
+    /* text-decoration: none; */
+    text-decoration: overline dashed red 5px;
+    /* 
+    text-decoration-line: overline underline line-through;
+    text-decoration-style:dotted;
+    text-decoration-color: blueviolet;
+    text: decoration thickness 3px; ; */
+}
+button{
+    text-transform: uppercase;
+}

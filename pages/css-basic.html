@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Basic</title>
+    
+    <style>
+        /* правило:
+        селектор{
+            свойство1: значение1;
+            свойство2: значение2;
+        } */
+        /* 1 */
+        h1
+        {
+            color:blue;
+        }
+        /* #red-header1
+        {
+            color:red;
+        }
+        #red-header2
+        {
+            color:red;
+        } */
+        /* типы селекторов: 
+        - селектор типа или селектор элемента (вес or
+        специфичность - 1(001))
+        - селектор класса (вес or
+        специфичность - 10(010))
+        - селектор идентификатора (вес or
+        специфичность - 100(100))
+        - inline стиль - вес/специфичность - 1000
+        */
+        
+        /* 10 */
+        .red-header
+        {
+            color:red;
+        }
+        .green-header
+        {
+            color:green;
+        }
+        /* 100 */
+        #yellow-header
+        {
+            color:yellow;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<!-- стили :
+- внешние (styles.css)
+- внутренние (style a head)
+- inline (атрибут style) -->
+<body>
+    <h1 class="red-header">Header1</h1i>
+    <h1 class="green-header">Header2</h1>
+    <h1 class="red-header">Header3</h1>
+    <h1 style="color:orange">Header4</h1>
+    <h1 id ="yellow-header" class="green-header">Header5</h1>
+    <h1>Hello there</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea modi atque blanditiis quam quas debitis expedita vitae esse voluptates quidem nisi hic, porro officia quaerat iure inventore culpa unde!</p>
+    <a href="0">Link</a>
+    <button>Sign in</button>
+    <button>Login</button>
+   
+</body>
+</html>
